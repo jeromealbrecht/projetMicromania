@@ -2,11 +2,13 @@
     font-family: "Futura";
     src: url("../font/FuturaPT-Book.woff2");
 }
-/* SECTION NAVIGATION */
 body {
     font-family: "Futura";
     margin: 0;
+    color: #1a58aa;
 }
+/* SECTION NAVIGATION */
+
 #navigation {
     position: fixed;
     width: 100%;
