@@ -8,10 +8,10 @@ body {
     color: #1a58aa;
 }
 /* SECTION NAVIGATION */
-
 #navigation {
     position: fixed;
     width: 100%;
+    top: 0px;
 }
 #navigation_wrapper {
     width: 100%;
