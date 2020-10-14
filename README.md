@@ -1,4 +1,4 @@
-# projetMicromania
+# Projet : Site vitrine de Micromania
 
 Chef de projet : HEZHAZ Othman
 
