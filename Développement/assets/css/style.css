@@ -66,9 +66,9 @@ body {
 .squareGame {
     float: left;
     background-color: white;
-    width: 280px;
-    height: 200px;
-    margin-left: 65px;
+    width: 290px;
+    height: 305px;
+    margin-left: 70px;
     padding-top: 5px;
     padding-bottom: 100px;
     padding-right: 20px;
@@ -130,7 +130,12 @@ body {
 }
 /* FIN SECTION CONTACTS */
 
-/* SECTIONPRESENTATION*/
+/* SECTION PRESENTATION */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 .timeline{
     max-width: 1200px;
     margin: 0 auto ;
@@ -185,22 +190,24 @@ left: 0;
 }
 .content{
     padding: 20px 30px ;
-    background: #fff;
+    border: 0.3em solid #4cbc38;
     border-radius: 6px;
 }
 p{
-    color: #2c15f7;
-    background-color: #9ff1e0;
+    color: #244ba0;
+    border: 0.3em solid #9ff1e0;
+    font-size: 20px;
 }
 h1{
-    color: rgb(7, 114, 91);
+    color: #244ba0;
     border-radius: inherit;
     text-align: center;
-    font-family: 'Times New Roman', Times, serif;
+    font-size: 40px;
 }
 h2{
-    color: rgb(35, 15, 219);
+    color: #244ba0;
     text-align: center;
+    font-size: 30px;
 }
 h3{
     color: #12e72e;
@@ -230,20 +237,23 @@ div[class^=circle] {
     background:#00ffc8;
     border-radius:100px;    
     line-height: 30px; 
+    margin-bottom: 40px;
 }
 .circle1{
     color: white;
     background:#00ffb3;
     text-align:center;
     border-radius:100px;
-    line-height: 35px; 
+    line-height: 35px;
+    margin-bottom: 40px;
 }
 .circle2{
     color: white;
     background:#3c20a3;
     text-align:center;
     border-radius:100px;
-    line-height: 35px; 
+    line-height: 35px;
+    margin-bottom: 40px;
 }
 .circle3{
     color: white;
@@ -251,19 +261,22 @@ div[class^=circle] {
     text-align:center;
     border-radius:150px;
     line-height: 35px;
+    margin-bottom: 40px;
 }
 .circle4{
     color: white;
     background:#3700ff;
     text-align:center;
     border-radius:100px;
-    line-height: 30px;  
+    line-height: 30px;
+    margin-bottom: 40px;
 }
 .circle5{
-    color: rgb(215, 236, 235);
+    color: white;
     background:#57c5c9;
     text-align:center;
     border-radius:100px;
-    line-height: 30px;  
+    line-height: 30px;
+    margin-bottom: 40px;
 }
 /* FIN SECTION PRESENTATION*/
