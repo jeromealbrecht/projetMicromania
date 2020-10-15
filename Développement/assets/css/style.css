@@ -283,7 +283,6 @@ div[class^=circle] {
 /* SECTION AVIS/COM */
 #commentary_container {
     width: 100%;
-    padding-top: 100px;
 }
 #commentary_form {
     width: 300px;
@@ -293,8 +292,7 @@ div[class^=circle] {
     list-style-type: none;
 }
 #thumb_buttons {
-    height: 100px;
-    line-height: 100px;
+    height: 80px;
     width: 120px;
     vertical-align: middle;
     margin: auto;
@@ -302,7 +300,6 @@ div[class^=circle] {
 #thumb_up, #thumb_down {
     margin: 0px 10px;
     transition: transform 100ms linear;
-    border-radius: 25pxn;
 }
 #thumb_up:hover, #thumb_down:hover {
     transform: scale(1.2);
