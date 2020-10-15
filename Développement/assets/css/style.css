@@ -267,3 +267,39 @@ div[class^=circle] {
     line-height: 30px;  
 }
 /* FIN SECTION PRESENTATION*/
+/* SECTION AVIS/COM */
+#commentary_container {
+    width: 100%;
+    padding-top: 100px;
+}
+#commentary_form {
+    width: 300px;
+    margin: auto;
+}
+#commentary_form ul {
+    list-style-type: none;
+}
+#thumb_buttons {
+    height: 100px;
+    line-height: 100px;
+    width: 120px;
+    vertical-align: middle;
+    margin: auto;
+}
+#thumb_up, #thumb_down {
+    margin: 0px 10px;
+    transition: transform 100ms linear;
+    border-radius: 25pxn;
+}
+#thumb_up:hover, #thumb_down:hover {
+    transform: scale(1.2);
+}
+#thumb_up {
+    width: 50px;
+    margin-left: auto;
+}
+#thumb_down {
+    width: 50px;
+    margin-right: auto;
+}
+/* FIN SECTION AVIS/COM */
