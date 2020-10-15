@@ -55,6 +55,7 @@ body {
     background-color: #244ba0;
     padding-top: 20px;
     padding-bottom: 20px;
+    margin-bottom: 50px;
 }
 #shop {
     background-color: #4cbc38;
@@ -95,3 +96,34 @@ body {
     margin: 10px 0px;
 }
 /* FIN SECTION CARTE */
+
+/* SECTION CONTACTS */
+#titleContact {
+    font-size: 75px;
+    text-align: right;
+    margin-right: 200px;
+}
+#borderContact {
+    font-size: 20px;
+    width: fit-content;
+    height: fit-content;
+    border: 15px;
+    margin-left: 68%;
+    margin-right: 50px;
+    margin-bottom: 50px;
+    border-right:0.3em solid #244ba0;
+    border-bottom:0.3em solid #244ba0;
+    border-left:0.3em solid #4cbc38;
+    border-top: 0.3em solid #4cbc38;
+}
+.links>a {
+    color: #244ba0;
+    margin-left: 25px;
+    padding-right: 20px;
+    text-decoration: none;
+    transition: 0.2s;
+}
+.links>a:hover {
+    color: #4cbc38;
+}
+/* FIN SECTION CONTACTS */
