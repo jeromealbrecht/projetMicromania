@@ -1,0 +1,52 @@
+@font-face {
+    font-family: "Futura";
+    src: url("../font/FuturaPT-Book.woff2");
+}
+
+body {
+    font-family: "Futura";
+    margin: 0;
+    color: #1a58aa;
+    padding-top: 96px;
+}
+
+/* Section boutique */
+#shopnews .titre{
+    font-size:55px;
+}
+
+@media (min-width: 768px) { 
+    #shopnews .titre{
+        font-size:75px;
+    } }
+
+.titleGame {
+    font-size: 25px;
+}
+.priceGame {
+    font-size: 35px;
+}
+
+.vert{
+    background-color: #4cbc38;
+}
+
+.bleu{
+    background-color: #244ba0;
+}
+
+/* Fin section boutique */
+
+/* section Presse */
+#actu_anchor a{
+    font-size: 25px;
+    color: #244ba0;
+    text-decoration: none;
+    transition: 0.2s;
+}
+
+#actu_anchor a:hover{
+    color: #4cbc38;
+}
+
+/* Fin section Presse */
