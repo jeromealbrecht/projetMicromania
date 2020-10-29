@@ -328,8 +328,8 @@ nav div a:hover {
     bottom: 0;
     position: absolute;
     content: " ";
-    width: 3px;
-    background-color: #eeeeee;
+    width: 5px;
+    background-color: rgb(44, 245, 205);
     left: 50%;
     margin-left: -1.5px;
 }
@@ -366,7 +366,7 @@ nav div a:hover {
     -webkit-box-shadow: 0 1px 6px rgba(0, 0, 0, 0.175);
     box-shadow: 0 1px 6px rgba(0, 0, 0, 0.175);
     padding: 20px 30px;
-    border: 0.3em solid #4cbc38;
+    border: 0.5em solid #4cbc38;
     border-radius: 6px;
 }
 
@@ -436,7 +436,7 @@ nav div a:hover {
 
 .timeline-title {
     margin-top: 0;
-    color: inherit;
+    /* color: inherit; */
 }
 
 .timeline-body>p,
@@ -511,6 +511,7 @@ h3 {
 }
 
 div[class^=circle] {
+    font-size: 20px;
     width: 150px;
     height: 150px;
     padding-top: 30px;
@@ -574,6 +575,7 @@ div[class^=circle] {
 }
 
 div[class^=bubble] {
+    font-size: 18px;
     text-align: center;
     width: 90%;
     height: 105px;
@@ -698,6 +700,15 @@ body {
 
 #actu_anchor a:hover{
     color: #4cbc38;
+}
+
+.formsize{
+font-size: 20px;
+border: 5px solid 
+}
+
+fieldset{
+    font-size: 20px;
 }
 
 /* Fin section Presse */
